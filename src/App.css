@@ -36,7 +36,7 @@ a {
 
 body {
   max-width: 100%;
-  background-image: url('./assets/pokemon-background.jpg');
+  background-image: url('./assets/images/pokemon-background.jpg');
   background-size: cover;
   display: flex;
   flex-direction: column;
