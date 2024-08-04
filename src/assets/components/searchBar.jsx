@@ -15,7 +15,7 @@ const Search = () => {
         event.preventDefault()
         try {
             const data = await setPokemon(input)
-            navigate(`/pokemon/${data.id}`, {state: {pokemon: data}})
+            navigate(`/quest-pokedex/pokemon/${data.id}`, {state: {pokemon: data}})
         } catch (error) {
             console.log("Error fetching pokemon data", error)
         }

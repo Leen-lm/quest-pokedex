@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Title = () => {
     return (
-        <Link to={`/`}>
+        <Link to={`/quest-pokedex/`}>
             <h2 className='header-title'>PokedeX</h2>
         </Link>
     )

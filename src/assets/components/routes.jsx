@@ -5,8 +5,8 @@ import { PokemonDetails } from "./pokemon-page/pokemonDetails";
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path='/' element={ <List/> }/>
-            <Route path='/pokemon/:id' element={ <PokemonDetails/> }/>
+            <Route path='/quest-pokedex/' element={ <List/> }/>
+            <Route path='/quest-pokedex/pokemon/:id' element={ <PokemonDetails/> }/>
         </Routes>
     )
 }

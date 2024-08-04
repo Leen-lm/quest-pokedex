@@ -41,7 +41,7 @@ export function List() {
             <h2 className="title">Lista de pokemons</h2>
             <ul className="lista">
                 {pokemons.map((pokemon, index) => (
-                    <Link key={index} to={`/pokemon/${pokemon.id}`}><li key={index} className='item' id={theme === themes.light ? 'light-theme' : 'dark-theme'}>
+                    <Link key={index} to={`/quest-pokedex/pokemon/${pokemon.id}`}><li key={index} className='item' id={theme === themes.light ? 'light-theme' : 'dark-theme'}>
                         <p className='name-pokemon'>{pokemon.name}</p>
                         <img className='imagem' src={pokemon.image} alt={pokemon.name} />
                     </li></Link>
