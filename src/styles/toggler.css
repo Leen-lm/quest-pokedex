@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('..assets/Pokemon Hollow.ttf') format(truetype);
+}
+
+.toggler {
+    height: 100%;
+    width: 90px;
+    border-style: none;
+    background-color: rgb(169, 10, 10);;
+    color: #ffffff;
+    font-family: 'Pokemon Hollow';
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}

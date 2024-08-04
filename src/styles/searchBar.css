@@ -1,0 +1,27 @@
+.form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 15px 20px;
+    gap: 10px;
+}
+
+.form .search {
+    width: 200px;
+    height: 45%;
+    background-color: #ffffff;
+    padding: 5px;
+    border-style: none;
+    color: rgb(169, 10, 10);
+    font-weight: bold;
+}
+
+.form .submit {
+    padding: 3px;
+    width: 100px;
+    background-color: #ffffff;
+    border-style: none;
+    color: rgb(169, 10, 10);
+    font-weight: bold;
+    cursor: pointer;
+}

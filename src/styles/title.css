@@ -1,0 +1,11 @@
+.header-title {
+    font-size: 50px;
+    transform: translateX(-65px);
+    margin-top: -10px;
+}
+
+
+
+a .header-title {
+    color: white;
+}

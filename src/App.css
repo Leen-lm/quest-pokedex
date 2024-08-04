@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Pokemon Solid';
+  src: url('./assets/PokemonSolid.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url('./assets/PokemonHollow.ttf') format(truetype);
+}
+
+#root {
+  min-width: 100vw;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#light-theme {
+  background-color: #ffffff;
+  color: #a90a0a;
+}
+
+#dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  max-width: 100%;
+  background-image: url('./assets/pokemon-background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #a90a0a;
+  width: 101%;
+  height: 80px;
+  padding-bottom: 10px;
+  padding-right: 45px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Pokemon Hollow';
+}
+
+.menu-pokedex {
+  padding-top: 50px;
+  width: 65%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-pokedex .pokemon-list {
+  height: auto;
+  width: 80%;
+  margin: 70px;
+  padding: 40px 50px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.menu-pokedex .pokemon-list .title {
+  color: #ffffff;
+  font-family: 'Pokemon Hollow', sans-serif;
+  margin-top: -40px ;  
+  font-size: 45px;
+
+}
+
+.menu-pokedex .pokemon-list .lista {
+  width: 100%;
+}
+
+.menu-pokedex .pokemon-list .lista .item {
+  color: #a90a0a;
+  font-size: 28px;
+  font-family: 'Pokemon Hollow', sans-serif;
+  font-weight: bold;
+  margin: 15px;
+  height: 100px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.menu-pokedex .pokemon-list .lista .item .name-pokemon {
+  margin: 3px 15px 3px 0;
+  align-content: center;
+  cursor: pointer;
+}
+
+
+.menu-pokedex .pokemon-list .lista .item .imagem {
+  border: solid #a90a0a;
+  margin: 3px 15px 3px 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pokemon-list .botao-loadMore {
+  margin: 30px;
+  width: 320px;
+  height: 100px;
+  background-color: #a90a0a;
+  color: #ffffff;
+  font-family: 'Pokemon Hollow';
+  border-radius: 5%;
+  font-size: 30px;
+  border: solid white 1px;
+  cursor: pointer;
+}
+#light-theme {
+  background-color: #ffffff;
+}
+
+#light-theme a {
+  background-color: #ffffff;
+  color: #a90a0a;
+}
+
+#dark-theme {
+  background-color: #000000;
+}
+
+#dark-theme a {
+ color: #ffffff;
+}
