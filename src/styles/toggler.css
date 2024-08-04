@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Pokemon Hollow';
-    src: url('..assets/Pokemon Hollow.ttf') format(truetype);
+    src: url('../assets/fonts/PokemonHollow.ttf') format(truetype);
 }
 
 .toggler {
