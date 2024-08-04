@@ -10,7 +10,6 @@ O Site tem as seguintes funcionalidades:
 
 O React é uma ótima biblioteca para criar sites front-end, montando o site de forma componentizada, como se fosse um lego, peça por peça..
 
-
-
+Link para o site: https://leen-lm.github.io/quest-pokedex/
 
 
